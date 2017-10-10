@@ -1,0 +1,312 @@
+/* UUID: 565396-143377-731229-397182- */ 
+
+html {
+    margin: auto;
+    width: min-content;
+}
+body {
+    margin: 0;
+    width: min-content;
+}
+b, strong {
+  font-weight: bold;
+}
+
+img {
+  border: 0px;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0px;
+  font-style: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input {
+  line-height: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.label {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+
+.label:empty {
+  display: none;
+}
+
+.viewport {
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+.element {
+  cursor: default;
+  position: absolute;
+  overflow: hidden;
+}
+
+.element * {
+  vector-effect: non-scaling-stroke;
+}
+
+.wordwrap {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+#button_text, #label_text {
+  position: absolute;
+  display: none;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+body, input, button, select, textarea {
+  font-family: proxima_nova, Arial, Helvetica, sans-serif;
+}
+
+input, textarea, select {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.range-bar {
+  background-color: rgb(169, 172, 177);
+  border-radius: 15px;
+  display: block;
+  height: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.range-quantity {
+  background-color: rgb(1, 122, 253);
+  border-radius: 15px;
+  display: block;
+  height: 100%;
+  width: 0px;
+}
+
+.range-handle {
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  cursor: move;
+  height: 19px;
+  left: 0px;
+  top: -8px;
+  position: absolute;
+  width: 19px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px;
+}
+
+.range-handle.custom {
+  background-color: transparent;
+  border-radius: 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: none;
+}
+
+.range-min, .range-max {
+  color: rgb(24, 24, 25);
+  font-size: 12px;
+  height: 20px;
+  padding-top: 4px;
+  position: absolute;
+  text-align: center;
+  top: -9px;
+  width: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.range-min {
+  left: -24px;
+}
+
+.range-max {
+  right: -24px;
+}
+
+.element.fc.Button .btn {
+  border-style: none;
+  width: 100%;
+  height: 100%;
+  font-weight: normal;
+  background-size: 100%;
+  cursor: inherit;
+}
+
+.element.fc.Button .btn img {
+  float: left;
+  height: 90%;
+  max-width: 50%;
+}
+
+.element.fc.Textbox .textView-wrapper {
+  width: 100%;
+  height: 100%;
+  display: table;
+  position: relative;
+}
+
+#textView {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.element.fc.Label {
+  border-style: none;
+}
+
+.element.fc.Label .label-wrapper {
+  width: 100%;
+  height: 100%;
+  display: table;
+  position: relative;
+}
+
+.element.fc.Label .label.wordwrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  word-break: break-word;
+  border-radius: 0px;
+}
+
+.element.fc.Label .label {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-weight: normal;
+}
+
+.element.fc.Image {
+  overflow: hidden;
+  text-align: center;
+}
+
+.element.fc.Container {
+  background-color: rgb(238, 238, 238);
+}
+
+.element.fc.Screen {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 6px;
+  background-size: cover;
+  overflow: visible;
+}
+
+.snapp-html5.fc.Screen {
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  display: none;
+  transform: none !important;
+}
+
+.element.fc.Slider .slider-wrapper {
+  width: 100%;
+  height: 100%;
+  display: table;
+  position: relative;
+}
+
+.element.fc.Slider .slider_div {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: normal;
+}
+
+.element.fc.Slider .slider_div {
+  text-align: center;
+  padding: 0px 24px;
+}
+
+.element.fc.Slider .range-max {
+  background-image: url("/src/objects/slider/img/objects/default_right_slider_icon.png");
+}
+
+.element.fc.Slider .range-min {
+  background-image: url("/src/objects/slider/img/objects/default_left_slider_icon.png");
+}
